@@ -29,7 +29,7 @@ function ImageSlider({ url, limit = 5, page = 1 }) {
   }, [url, limit, page]);
 
   if (loading) {
-    return <div>Loading please wait....</div>;
+    return <div>Loading please wait........</div>;
   }
   if (errorMessage) {
     return <div>Error occurred:{errorMessage}</div>;
