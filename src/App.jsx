@@ -1,11 +1,14 @@
 import React from 'react'
-import Accordion from './assets/accodion/accodion'
+import Accordion from './components/accodion/accodion'
+import Menu from './components/Treeview/menu'
+ 
 
 
 function App() {
   return (
     <div>
-      <Accordion />
+      {/* <Accordion /> */}
+       <Menu />
     </div>
   )
 }
