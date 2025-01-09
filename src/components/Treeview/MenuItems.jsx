@@ -12,7 +12,8 @@ function MenuItems({item}) {
     })
 
   }
-
+  
+  console.log(display)
   return (
     <div>
         <div className='flex cursor-pointer items-center justify-between w-[50%]  ' onClick={()=>handleclick(item.label)}>
